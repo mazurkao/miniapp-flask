@@ -11,4 +11,6 @@ WORKDIR $project_dir
 #RUN pip install flask
 RUN pip install -r requirements.txt
 
+EXPOSE 5555
+
 CMD ["python", "app.py"]
